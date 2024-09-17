@@ -1,6 +1,6 @@
 {
     "name": "PreFigure-Codespaces",
-    "dockerFile": "Dockerfile",
+    "image": "davidaustinm/prefig",
     "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
 
     "customizations": {
