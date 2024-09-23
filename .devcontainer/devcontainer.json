@@ -9,7 +9,8 @@
         },
         "vscode": {
             "extensions": [
-                "vitaliymaz.vscode-svg-previewer"
+                "vitaliymaz.vscode-svg-previewer",
+		"redhat.vscode-xml"
             ]
         }
     }
