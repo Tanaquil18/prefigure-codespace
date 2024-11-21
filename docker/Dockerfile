@@ -1,4 +1,4 @@
-FROM python:3.10-bullseye
+FROM python:3.12-bookworm
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
@@ -10,4 +10,4 @@ RUN apt-get update && \
 
 # Debian bookworm has a new enough pip we can skip this
 RUN python3 -m pip install --upgrade pip
-RUN pip install prefig
+RUN pip install prefig[pycairo]
