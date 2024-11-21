@@ -1,6 +1,6 @@
 {
     "name": "PreFigure-Codespaces",
-    "image": "davidaustinm/prefig",
+    "image": "davidaustinm/prefig:latest",
     "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
 
     "customizations": {
