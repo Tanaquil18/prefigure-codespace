@@ -1,6 +1,6 @@
 {
     "name": "PreFigure-Codespaces",
-    "image": "davidaustinm/prefig:latest",
+    "image": "davidaustinm/prefig",
     "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
 
     "customizations": {
@@ -10,7 +10,7 @@
         "vscode": {
             "extensions": [
                 "vitaliymaz.vscode-svg-previewer",
-		"redhat.vscode-xml"
+                "redhat.vscode-xml"
             ]
         }
     }
