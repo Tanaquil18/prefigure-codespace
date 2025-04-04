@@ -1,0 +1,17 @@
+<diagram dimensions="(300,300)" margins="10">
+  <definition>f(t,y) = 2*y-6 </definition>
+  <coordinates bbox="[-2,-3,5,20]">
+    <grid-axes xlabel="t" ylabel="y"/>
+    <slope-field function="f"/>
+    <plot-de-solution function="f" t0="0" y0="4" t1="4" stroke="red"/>
+
+    <definition>N=5</definition>
+    <definition>points = eulers_method(f,0,4,2.5,N)</definition>
+
+    <polygon points="points" stroke="red"/>
+
+    <repeat parameter="k=0..N">
+      <point p="points[k]"/>
+    </repeat>
+  </coordinates>
+</diagram>
